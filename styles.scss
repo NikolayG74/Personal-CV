@@ -1,0 +1,740 @@
+body{
+  margin: 0;
+  height: 100%;
+  background-image: url("https://content.presspage.com/uploads/2580/1920_nature_and_happiness-503786.jpg?10000");
+}
+  /*Left-Header*/
+
+  .left-side{
+    display: grid;
+    float: left;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 265px;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: rgb(178, 127, 0);
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(178, 127, 0);
+    margin-top: 20px;
+    padding-bottom: 300px;
+    margin-left: 300px;
+  }
+
+    img{
+      clip-path: polygon(9% 10%, 92% 9%, 98% 88%, 4% 89%);
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+      .Name{
+        color: rgb(255, 255, 255);
+        font-family: Arial;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+        .Job-title{
+          color: rgb(255, 255, 255);
+          font-family: Arial;
+          font-size: 50px;
+          font-weight: bold;
+          text-align: center;
+          padding-top: 50px;
+        }
+
+          /*Contact Icons*/
+
+          .icons{
+            display: grid;
+            color: white;
+            font-size: 14px;
+            padding-top: 20px;
+          }
+
+
+          .Home{
+            margin-bottom: 12px;
+          }
+
+          .Phone{
+            margin-bottom: 12px;
+          }
+
+          .Envelope{
+            margin-bottom: 12px;
+          }
+
+          .Calendar{
+            margin-bottom: 12px;
+          }
+
+          .Briefcase{ 
+           margin-top: 150px;
+           text-align: center;
+           font-size: 80px;
+           color: rgb(5, 243, 231);
+          }
+
+          /*Education School Icons*/
+
+          .icon-tag{
+            display: inline-flex;
+            margin-left: 90px;
+          }
+
+          .School-icon{
+            display: block;
+            width: 24px;
+            margin-left: -30px;
+            margin-top: -23px;
+            color: red;
+          }
+
+          .city-icon{
+            display: block;
+            width: 24px;
+            margin-left: 374px;
+            margin-top: -23px;
+            color: red;
+          }
+
+          .Qualification-icon{
+            display: block;
+            width: 25px;
+            margin-left: -30px;
+            margin-top: -20px;
+            color: red;
+          }
+
+          /*Education University Icons*/
+
+          .icon-Uni-tag{
+            display: inline-flex;
+            margin-top: 50px;
+            margin-left: 90px;
+          }
+
+          .University-icon{
+            display: block;
+            width: 24px;
+            margin-left: -30px;
+            margin-top: -23px;
+            color: red;
+          }
+
+          .city-Uni-icon{
+            display: block;
+            width: 24px;
+            margin-left: -32px;
+            margin-top: -23px;
+            color: red;
+          }
+
+          .Uni-qualification-icon{
+            display: block;
+            width: 25px;
+            margin-left: -30px;
+            margin-top: -20px;
+            color: red;
+          }
+
+
+          /*Experience Icons*/
+
+          .Company-icon{
+            display: block;
+            width: 25px;
+            margin-left: -30px;
+            margin-top: -20px;
+            color: red;
+          }
+
+         .Function-icon{
+          display: block;
+          width: 25px;
+          margin-left: -36px;
+          margin-top: -20px;
+          color: red;
+         }
+
+         .Work-city-icon{
+          display: block;
+          width: 25px;
+          margin-left: -28px;
+          margin-top: -20px;
+          color: rgb(221, 19, 19);
+         }
+
+         .sector{
+          display: block;
+          width: 25px;
+          margin-left: -36px;
+          margin-top: -25px;
+          color: red;
+         }
+
+          .icon-second{
+            display: block;
+            width: 25px;
+            margin-left: 35px;
+            margin-top: 50px;
+            color: rgb(0, 0, 0);
+          }
+            .Comp-icon-second{
+              display: block;
+              width: 25px;
+              margin-left: -30px;
+              margin-top: -20px;
+              color: red;
+            }
+
+          .Funct-icon-second{
+            display: block;
+            width: 25px;
+            margin-left: -36px;
+            margin-top: -20px;
+            color: red;
+          }
+
+          .Work-icon-second{
+            display: block;
+            width: 25px;
+            margin-left: -28px;
+            margin-top: -20px;
+            color: red;
+          }
+
+          .sect-icon-second{
+            display: block;
+            width: 25px;
+            margin-left: -36px;
+            margin-top: -25px;
+            color: red;
+          }
+
+            .icon-third{
+              display: block;
+              width: 25px;
+              margin-left: 40px;
+              margin-top: 50px;
+              color: rgb(0, 0, 0);
+            }
+              .Third-Com-Icon{
+                display: block;
+                width: 25px;
+                margin-left: -30px;
+                margin-top: -20px;
+                color: red;
+              }
+
+            .Third-Funct-Icon{
+              display: block;
+              width: 25px;
+              margin-left: -36px;
+              margin-top: -20px;
+              color: red;
+            }
+
+            .Third-Work-sector{
+              display: block;
+              width: 25px;
+              margin-left: -28px;
+              margin-top: -20px;
+              color: red;
+            }
+
+            .Third-Sector-Icon{
+              display: block;
+              width: 25px;
+              margin-left: -36px;
+              margin-top: -25px;
+              color: red;
+            }
+
+                .icon-four{
+                  display: block;
+                  width: 25px;
+                  margin-left: 40px;
+                  margin-top: 50px;
+                  color: rgb(0, 0, 0);
+                }
+                .Four-Com-Icon{
+                  display: block;
+                  width: 25px;
+                  margin-left: -30px;
+                  margin-top: -20px;
+                  color: red;
+                }
+
+                .Four-Funct-Icon{
+                  display: block;
+                  width: 25px;
+                  margin-left: -36px;
+                  margin-top: -20px;
+                  color: red;
+                }
+
+                .Four-Work-sector{
+                  display: block;
+                  width: 25px;
+                  margin-left: -28px;
+                  margin-top: -20px;
+                  color: red;
+                }
+
+                .Four-Sector-Icon{
+                  display: block;
+                  width: 25px;
+                  margin-left: -36px;
+                  margin-top: -25px;
+                  color: red;
+                }
+
+                  .icon-five{
+                    display: block;
+                    width: 25px;
+                    margin-left: 40px;
+                    margin-top: 50px;
+                    color: rgb(0, 0, 0);
+                  }
+                  .Five-Com-Icon{
+                    display: block;
+                    width: 25px;
+                    margin-left: -30px;
+                    margin-top: -20px;
+                    color: red;
+                  }
+
+                  .Five-Funct-Icon{
+                    display: block;
+                    width: 25px;
+                    margin-left: -36px;
+                    margin-top: -20px;
+                    color: red;
+                  }
+
+                  .Five-Work-sector{
+                    display: block;
+                    width: 25px;
+                    margin-left: -28px;
+                    margin-top: -20px;
+                    color: red;
+                  }
+
+                  .Five-Sector-Icon{
+                    display: block;
+                    width: 25px;
+                    margin-left: -36px;
+                    margin-top: -25px;
+                    color: red;
+                  }
+          
+          /*Contact info*/
+
+            .Contact{
+              font-size: 30px;
+              font-family: Arial;
+              font-weight: 500;
+              color: rgb(178, 127, 0);
+              margin-top: 130px;
+              margin-left: 20px;
+            }
+
+              .City-Home{
+                display: inline;
+                font-size: 14px;
+                margin-left: 7px;
+              }
+
+              .Mobile-phone{
+                display: inline;
+                font-size: 14px;
+                margin-left: 7px;
+              }
+
+              .Gmail{
+                display: inline;
+                font-size: 14px;
+                margin-left: 7px;
+              }
+
+              .Date{
+                display: inline;
+                font-size: 14px;
+                margin-left: 7px;
+              }
+
+              /*Active Button*/
+              .Github{
+                display: inline-block;
+                background-color: black;
+                margin-bottom: 50px;
+
+                &:hover{
+                  background-color: rgb(0, 0, 0);
+                  cursor: pointer;
+                  opacity: 0.7;
+                  transition: all .1s;
+                  box-sizing: 10 5 10 rgba(253, 252, 252, 0.99);
+                }
+
+                &:active{
+                  background-color: rgb(0, 0, 0);
+                }
+
+                .Github-project{
+                  display: block;
+                  font-size: 15px;
+                }
+              }
+
+
+              /*Right Side*/
+              
+              .right-header{
+                display: grid;
+                float: left;
+                grid-template-rows: 400, 1fr;
+                background-color: rgb(252, 252, 253);
+                margin-top: 20px;
+                padding-bottom: 300px;
+                margin-right: 300px;
+                height: 1430px;
+                width: 600px;
+                border-bottom-width: 20px;
+                border-bottom-style: solid;
+                border-bottom-color: rgb(178, 127, 0);
+          
+              }
+
+              /*Education Section*/
+
+              .Education-title{
+                display: inline-block;
+               
+              }
+
+              .Education{
+                display: grid;
+                float: top;
+                color: rgb(178, 127, 0);
+                font-size: 25px;
+                font-family: Arial;
+                font-weight: 700;
+                margin-left: 38px;
+                margin-top: 28px;
+              }
+
+              .Years-edu{
+                display: flex;
+                margin-left: 110px;
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 700;
+              }
+              
+              .School{
+                display: inline-table;
+                margin-left: 55px;
+                padding-top: 15px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .City{
+                display: inline;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: arial;
+                padding-left: 50px;
+              }
+              .Edu-qualification{
+                display: inline-block;
+                margin-top: 8px;
+                margin-left: 58px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              /*University Education Section*/
+
+              .Years-Uni{
+                display: flex;
+                margin-top: -5px;
+                margin-left: 110px;
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 700;
+              }
+
+              .University{
+                display: inline-table;
+                margin-left: 55px;
+                padding-top: 20px;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .City-Uni{
+                display: inline block;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: arial;
+                padding-left: 56px;
+                margin-top: 8px;
+              }
+              .Uni-qualification{
+                display: inline-block;
+                margin-top: 8px;
+                margin-left: 58px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+
+              /*Experience Section*/
+
+              .Experience-title{
+                display: inline-block;
+              }
+
+              .Experience{
+                display: grid;
+                float: top;
+                color: rgb(178, 127, 0);
+                font-size: 25px;
+                font-family: Arial;
+                font-weight: 700;
+                margin-left: 38px;
+                margin-top: 100px;
+              }
+
+              .Years-work{
+                display: flex;
+                margin-left: 110px;
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 700;
+              }
+
+              .Company{
+                display: inline-block;
+                margin-left: 58px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .Function{
+                display: inline-block;
+                padding-left: 8px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .Work-city{
+                display: inline-block;
+                padding-left: 38px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+              
+              .business-sector{
+                display: inline-block;
+                padding-left: 8px;
+                margin-top: 20px;
+                font-size: 24px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .Years-second{
+                display: flex;
+                margin-left: 60px;
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 700;
+              }
+
+              .Com-second{
+                display: block;
+                margin-left: 0px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .Funct-second{
+                display: inline-block;
+                padding-left: 8px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+              .Work-second{
+                display: inline-block;
+                padding-left: 38px;
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+              
+              .buss-sector-second{
+                display: block;
+                padding-left: 8px;
+                margin-top: 15px;
+                font-size: 24px;
+                font-weight: 500;
+                font-family: Arial;
+              }
+
+                .Third-Date{
+                  display: flex;
+                  margin-left: 65px;
+                  font-size: 25px;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-weight: 700;
+                }
+
+                .Third-company{
+                  display: block;
+                  margin-left: 0px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Third-funct{
+                  display: inline-block;
+                  padding-left: 8px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Third-work{
+                  display: inline-block;
+                  padding-left: 38px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+                
+                .Third-sector{
+                  display: block;
+                  padding-left: 8px;
+                  margin-top: 15px;
+                  font-size: 24px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Four-Date{
+                  display: flex;
+                  margin-left: 65px;
+                  font-size: 25px;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-weight: 700;
+                }
+
+                .Four-company{
+                  display: block;
+                  margin-left: 0px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Four-funct{
+                  display: inline-block;
+                  padding-left: 8px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Four-work{
+                  display: inline-block;
+                  padding-left: 38px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+                
+                .Four-sector{
+                  display: block;
+                  padding-left: 8px;
+                  margin-top: 15px;
+                  font-size: 24px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Five-Date{
+                  display: flex;
+                  margin-left: 65px;
+                  font-size: 25px;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-weight: 700;
+                }
+
+                .Five-company{
+                  display: block;
+                  margin-left: 0px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Five-funct{
+                  display: inline-block;
+                  padding-left: 8px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+
+                .Five-work{
+                  display: inline-block;
+                  padding-left: 38px;
+                  margin-top: 20px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+                
+                .Five-sector{
+                  display: block;
+                  padding-left: 8px;
+                  margin-top: 15px;
+                  font-size: 24px;
+                  font-weight: 500;
+                  font-family: Arial;
+                }
+               
+             
