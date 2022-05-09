@@ -1,8 +1,10 @@
 body {
   margin: 0;
   height: 100%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiBq5LWASxZ0dmYX9OZKuzzvVUPVdTlPxwZQ&usqp=CAU");
+  background-image: url("https://www.worldatlas.com/r/w1200/upload/da/27/73/shutterstock-459943711.jpg");
+  background-size: cover;
 }
+
 
 /*Left-Header*/
 .left-side {
